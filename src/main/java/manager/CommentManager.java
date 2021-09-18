@@ -1,24 +1,20 @@
 package manager;
 
-import domain.comment;
+import domain.Comment;
 
 public class CommentManager {
-    private comment[] comments;
+    private Comment[] comments;
 
-    public comment[] getComments() {
+    public Comment[] getComments() {
         return comments;
-
     }
 
-    public void setComments(comment[] comments) {
+    public void setComments(Comment[] comments) {
         this.comments = comments;
     }
 
-    public comment[] generateBlock() {
+    public Comment[] generateBlock() {
 
         return null;
-
-
     }
-
 }
